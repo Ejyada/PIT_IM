@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<runners>
+     <runner>
+    <runner_id>1</runner_id>
+    <registration_date>1/5/2021</registration_date>
+  </runner>
+  <runner>
+    <runner_id>2</runner_id>
+    <registration_date>1/11/2021</registration_date>
+  </runner>
+  <runner>
+    <runner_id>3</runner_id>
+    <registration_date>1/13/2021</registration_date>
+  </runner>
+  <runner>
+    <runner_id>4</runner_id>
+    <registration_date>1/8/2021</registration_date>
+  </runner>
+  <runner>
+    <runner_id>5</runner_id>
+    <registration_date>1/2/2021</registration_date>
+  </runner>
+  <runner>
+    <runner_id>6</runner_id>
+    <registration_date>1/14/2021</registration_date>
+  </runner>
+  <runner>
+    <runner_id>7</runner_id>
+    <registration_date>1/7/2021</registration_date>
+  </runner>
+  <runner>
+    <runner_id>8</runner_id>
+    <registration_date>1/2/2021</registration_date>
+  </runner>
+  <runner>
+    <runner_id>9</runner_id>
+    <registration_date>1/9/2021</registration_date>
+  </runner>
+  <runner>
+    <runner_id>10</runner_id>
+    <registration_date>1/6/2021</registration_date>
+  </runner>
+</runners>
