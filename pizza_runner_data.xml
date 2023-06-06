@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers_table>
+    <customer>
+        <order_id>1</order_id>
+        <customer_id>101</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>blank</exclusions>
+        <extras>blank</extras>
+        <order_time>2021-01-01 18:05:02</order_time>
+    </customer>
+
+    <customer>
+        <order_id>2</order_id>
+        <customer_id>101</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>blank</exclusions>
+        <extras>blank</extras>
+        <order_time>2021-01-01 19:00:52</order_time>
+    </customer>
+</customers_table>
