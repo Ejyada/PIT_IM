@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<runners>
+
+    <runner>
+        <runner_id>1</runner_id>
+        <registration_date>2021-01-01</registration_date>
+    </runner>
+
+    <runner>
+        <runner_id>2</runner_id>
+        <registration_date>2021-01-03</registration_date>
+    </runner>
+
+    <runner>
+        <runner_id>3</runner_id>
+        <registration_date>2021-01-08</registration_date>
+    </runner>
+
+    <runner>
+        <runner_id>4</runner_id>
+        <registration_date>2021-01-15</registration_date>
+    </runner>
+
+</runners> 
+
 <customer_orders>
     <customer>
         <order_id>1</order_id>
@@ -54,20 +79,83 @@
         <order_time>2021-01-04 13:23:46</order_time>
     </customer>
 
-    
+    <customer>
+        <order_id>4</order_id>
+        <customer_id>103</customer_id>
+        <pizza_id>2</pizza_id>
+        <exclusions>4</exclusions>
+        <extras>blank</extras>
+        <order_time> 2021-01-04 13:23:46</order_time>
+    </customer>
+
+     <customer>
+        <order_id>5</order_id>
+        <customer_id>104</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>null</exclusions>
+        <extras>1</extras>
+        <order_time> 2021-01-08 21:00:29</order_time>
+    </customer>
+
+    <customer>
+        <order_id>6</order_id>
+        <customer_id>101</customer_id>
+        <pizza_id>2</pizza_id>
+        <exclusions>null</exclusions>
+        <extras>null</extras>
+        <order_time>2021-01-08 21:03:13</order_time>
+    </customer>
+
+    <customer>
+        <order_id>7</order_id>
+        <customer_id>105</customer_id>
+        <pizza_id>2</pizza_id>
+        <exclusions>null</exclusions>
+        <extras>1</extras>
+        <order_time>2021-01-08 21:03:13</order_time>
+    </customer>
+
+    <customer>
+        <order_id>8</order_id>
+        <customer_id>102</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>null</exclusions>
+        <extras>null</extras>
+        <order_time>2021-01-09 23:54:33</order_time>
+    </customer>
+
+     <customer>
+        <order_id>9</order_id>
+        <customer_id>103</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>4</exclusions>
+        <extras>1,5</extras>
+        <order_time>2021-01-10 11:22:59</order_time>
+    </customer>
+
+    <customer>
+        <order_id>10</order_id>
+        <customer_id>104</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>null</exclusions>
+        <extras>null</extras>
+        <order_time>2021-01-11 18:34:49</order_time>
+    </customer>
+
+    <customer>
+        <order_id>10</order_id>
+        <customer_id>104</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>2,6</exclusions>
+        <extras>1,4</extras>
+        <order_time>2021-01-11 18:34:49</order_time>
+    </customer>
 
 </customer_orders>
 
-<runners>
-
-    <runner>
-        <runner_id>1</runner_id>
-        <registration_date>2021-01-01</registration_date>
-    </runner>
-
-</runners> 
 
 <runner_orders>
+
     <runner_order>
         <order_id>1</order_id>
         <runner_id>1</runner_id>
@@ -75,18 +163,181 @@
         <distance>20km</distance>
         <duration>32 minutes</duration>
         <cancellation>blank</cancellation>
-
-    
     </runner_order>
+
+    <runner_order>
+        <order_id>2</order_id>
+        <runner_id>1</runner_id>
+        <pickup_time>2021-01-01 19:10:54</pickup_time>
+        <distance>20km</distance>
+        <duration>27 minutes</duration>
+        <cancellation>blank</cancellation>
+    </runner_order>
+
+     <runner_order>
+        <order_id>3</order_id>
+        <runner_id>1</runner_id>
+        <pickup_time>2021-01-0300:12:37</pickup_time>
+        <distance>13.4km</distance>
+        <duration>20 minutes</duration>
+        <cancellation>NaN</cancellation>
+    </runner_order>
+
+    <runner_order>
+        <order_id>4</order_id>
+        <runner_id>2</runner_id>
+        <pickup_time>2021-01-0300:12:37</pickup_time>
+        <distance>23.4km</distance>
+        <duration>40 minutes</duration>
+        <cancellation>NaN</cancellation>
+    </runner_order>
+
+     <runner_order>
+        <order_id>5</order_id>
+        <runner_id>3</runner_id>
+        <pickup_time>2021-01-0821:10:57</pickup_time>
+        <distance>10km</distance>
+        <duration>15 minutes</duration>
+        <cancellation>NaN</cancellation>
+    </runner_order>
+
+    <runner_order>
+        <order_id>6</order_id>
+        <runner_id>3</runner_id>
+        <pickup_time>null</pickup_time>
+        <distance>null</distance>
+        <duration>null</duration>
+        <cancellation>Restaurant Cancellation</cancellation>
+    </runner_order>
+
+     <runner_order>
+        <order_id>7</order_id>
+        <runner_id>2</runner_id>
+        <pickup_time>2020-01-0821:30:45</pickup_time>
+        <distance>25km</distance>
+        <duration>25 minutes</duration>
+        <cancellation>null</cancellation>
+    </runner_order>
+
+     <runner_order>
+        <order_id>8</order_id>
+        <runner_id>2</runner_id>
+        <pickup_time>2020-01-1000:15:02</pickup_time>
+        <distance>23.4km</distance>
+        <duration>15 minutes</duration>
+        <cancellation>null</cancellation>
+    </runner_order>
+
+     <runner_order>
+        <order_id>9</order_id>
+        <runner_id>2</runner_id>
+        <pickup_time>null</pickup_time>
+        <distance>null</distance>
+        <duration>null</duration>
+        <cancellation>Customer Cancellation</cancellation>
+    </runner_order>
+
+    <runner_order>
+        <order_id>10</order_id>
+        <runner_id>1</runner_id>
+        <pickup_time>2020-01-1118:50:20</pickup_time>
+        <distance>10km</distance>
+        <duration>10 minutes</duration>
+        <cancellation>null</cancellation>
+    </runner_order>
+
 </runner_orders>
+
+
 
 <pizza_names>
     <pizza_name>
         <pizza_id>1</pizza_id>
         <pizza_name>Meat Lovers</pizza_name>
     </pizza_name>
+
+    <pizza_name>
+        <pizza_id>2</pizza_id>
+        <pizza_name>Vegetarian</pizza_name>
+    </pizza_name>
+
 </pizza_names>
 
+<pizza_recipes>
+    <pizza_recipe>
+        <pizza_id>1</pizza_id>
+        <toppings>1, 2, 3, 4, 5, 6, 8, 10</toppings>
+    </pizza_recipe>
+
+    <pizza_recipe>
+        <pizza_id>2</pizza_id>
+        <toppings>4, 6, 7, 9, 11, 12</toppings>
+    </pizza_recipe>
+</pizza_recipes>
+
+<pizza_toppings>
+    <pizza_topping>
+        <topping_id>1</topping_id>
+        <topping_name>Bacon</topping_name>
+    </pizza_topping>
+
+    <pizza_topping>
+        <topping_id>2</topping_id>
+        <topping_name>BBQ Sauce</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>3</topping_id>
+        <topping_name>Beef</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>4</topping_id>
+        <topping_name>Cheese</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>5</topping_id>
+        <topping_name>Chicken</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>6</topping_id>
+        <topping_name>Mushroom</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>7</topping_id>
+        <topping_name>Onions</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>8</topping_id>
+        <topping_name>Peperoni</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>9</topping_id>
+        <topping_name>Peppers</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>10</topping_id>
+        <topping_name>Salami</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>11</topping_id>
+        <topping_name>Tomatoes</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>12</topping_id>
+        <topping_name>Tomato Sauce</topping_name>
+    </pizza_topping>
+
+
+</pizza_toppings>
 
 
 
