@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<customers_table>
+<customer_orders>
     <customer>
         <order_id>1</order_id>
         <customer_id>101</customer_id>
@@ -17,4 +17,77 @@
         <extras>blank</extras>
         <order_time>2021-01-01 19:00:52</order_time>
     </customer>
-</customers_table>
+
+    <customer>
+        <order_id>3</order_id>
+        <customer_id>102</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>blank</exclusions>
+        <extras>black</extras>
+        <order_time>2021-01-02 23:51:23</order_time>
+    </customer>
+
+    <customer>
+        <order_id>3</order_id>
+        <customer_id>102</customer_id>
+        <pizza_id>2</pizza_id>
+        <exclusions>blank</exclusions>
+        <extras>NaN</extras>
+        <order_time>2021-01-02 23:51:23</order_time>
+    </customer>
+
+     <customer>
+        <order_id>4</order_id>
+        <customer_id>103</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>4</exclusions>
+        <extras>blank</extras>
+        <order_time>2021-01-04 13:23:46</order_time>
+    </customer>
+
+    <customer>
+        <order_id>4</order_id>
+        <customer_id>103</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>4</exclusions>
+        <extras>blank</extras>
+        <order_time>2021-01-04 13:23:46</order_time>
+    </customer>
+
+    
+
+</customer_orders>
+
+<runners>
+
+    <runner>
+        <runner_id>1</runner_id>
+        <registration_date>2021-01-01</registration_date>
+    </runner>
+
+</runners> 
+
+<runner_orders>
+    <runner_order>
+        <order_id>1</order_id>
+        <runner_id>1</runner_id>
+        <pickup_time>2021-01-01 18:15:34</pickup_time>
+        <distance>20km</distance>
+        <duration>32 minutes</duration>
+        <cancellation>blank</cancellation>
+
+    
+    </runner_order>
+</runner_orders>
+
+<pizza_names>
+    <pizza_name>
+        <pizza_id>1</pizza_id>
+        <pizza_name>Meat Lovers</pizza_name>
+    </pizza_name>
+</pizza_names>
+
+
+
+
+   
